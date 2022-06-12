@@ -1,0 +1,36 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.chessboard {
+  background-color: aquamarine;
+  width: 480px;
+  height: 480px;
+  border: 2px solid aqua;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+margin: 0 auto;
+
+
+}
+.white {
+  background-color: #fff;
+
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.brown {
+  background-color: brown;
+
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}

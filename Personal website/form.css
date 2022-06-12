@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+/*This is where the main form start*/
+#mainform {
+  border-radius: 10px;
+  background-image: linear-gradient(
+      135deg,
+      rgba(125, 15, 228, 0.2),
+      rgba(33, 204, 216, 0.2),
+      rgba(234, 18, 18, 0.2)
+    ),
+    url(./laptop\ 2.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  width: 390px;
+  margin: 0 auto;
+  height: 280px;
+
+}
+
+label {
+  width: 100px;
+  display: inline-block;
+  margin: 4px;
+  text-align: right;
+  height: 30px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.sub {
+  text-align: center;
+  margin-left: 165px;
+  width: 60px;
+  margin-bottom: 10px;
+  background-color: red;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+.sub:hover {
+  background-color: blue;
+  color: #fff;
+}
+input,
+textarea {
+  outline: none;
+  width: 200px;
+}
+section{
+    margin:0 auto;
+    height: 80vh;
+    width: 80%;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
